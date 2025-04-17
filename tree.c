@@ -5581,6 +5581,8 @@ xmlNodeGetContent(const xmlNode *cur)
     xmlBufPtr buf;
     xmlChar *ret;
 
+    printf("this is a modification test!\n");
+
     if (cur == NULL)
         return (NULL);
 
