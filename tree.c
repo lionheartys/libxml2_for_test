@@ -5741,6 +5741,8 @@ xmlNodeAddContentLen(xmlNodePtr cur, const xmlChar *content, int len) {
     if ((content == NULL) || (len <= 0))
         return(0);
 
+    printf("this is a modification test")
+
     switch (cur->type) {
         case XML_DOCUMENT_FRAG_NODE:
         case XML_ELEMENT_NODE: {
